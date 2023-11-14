@@ -1,148 +1,148 @@
 html, body { /*são Importantes para garantir de as imagens full screnn ocupem realmente 100% da tela */
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	background-color: #095256;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #095256;
 }
 .container{
-	margin: auto;
+  margin: auto;
 }
 .esp_parallax {
-	background-image: url("imgs/top_01-01.jpg");
-	min-height: 90vh; 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin: 0px 0px 30px 0px
+  background-image: url("imgs/top_01-01.jpg");
+  min-height: 90vh; !important
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 30px 0px!important
 }
 .esp_title_first{
-	font: 8vw / 1 'big shoulders text', 'Sans serif';
-	font-weight: 100;
-	text-transform: uppercase;
+  font: 8vw / 1 'big shoulders text', 'Sans serif';
+  font-weight: 100;
+  text-transform: uppercase;
 }
 .esp_title_second{
-	font: 8vw / 1 'big shoulders text', 'Sans serif';
-	font-weight: 900;
-	letter-spacing: -0.2rem;
-	text-transform: uppercase;
+  font: 8vw / 1 'big shoulders text', 'Sans serif';
+  font-weight: 900;
+  letter-spacing: -0.2rem;
+  text-transform: uppercase;
 }
 .esp_lead{
-	font: 2.3rem / 1.2 "roboto flex", "sans serif";
-	font-weight: 600;
-	padding: 10px;
-	margin: auto;
-	max-width: 60vw;
-	text-align: center;
+  font: 2.3rem / 1.2 "roboto flex", "sans serif";
+  font-weight: 600;
+  padding: 10px;
+  margin: auto;
+  max-width: 60vw;
+  text-align: center;
 }
 .esp_oppening_text h1{
-	color: white;
+  color: white;
 }
 .esp_oppening_text h2{
-	color: white;
-	font-family: 'roboto flex';
+  color: white;
+  font-family: 'roboto flex';
 }
 .esp_quotes{
-	font-size: 1.8rem;
-	padding: 0px;
-	margin: 0px auto;
+  font-size: 1.8rem;
+  padding: 0px;
+  margin: 0px auto;
 }
 .esp_text_body_container{
-	max-width:600px;
-	font: 1.5rem / 1.4 "roboto flex", "Sans serif";
-	word-spacing: 1px;
-	margin: auto;
-	color: white;
+  max-width:600px;
+  font: 1.5rem / 1.4 "roboto flex", "Sans serif";
+  word-spacing: 1px;
+  margin: auto;
+  color: white;
 
 }
 .esp_video_container{
-	max-width: 900px;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /*usado somente na div das imagens*/
 .esp_scroll_image_galery{
-	top: 0px;
-	margin: 50px auto;
-	height: 100vh;
-	width: 100%;
-	position: sticky;
-	top: 0px;
-	z-index: -1;   
+  top: 0px;
+  margin: 50px auto;
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: -1;   
 }
 /*usado  nas imagens, individualmente*/
 .scroll_image{
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	transition: opacity 0.3s ease-in-out;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.3s ease-in-out;
 
 }
 .text_upper{
-	padding: 5px  20px;
-	transform: translateY(-100vh);
-	margin: 60% 8vw 0% 10vw;
-	max-width: 40vw;
-	font: 1.8rem / 1.3 "roboto flex", "Sans serif";
-	font-weight: 600;
-	text-shadow: black 1px 0 10px;
-	color: white;
+  padding: 5px  20px;
+  transform: translateY(-100vh);
+  margin: 60% 8vw 0% 10vw;
+  max-width: 40vw;
+  font: 1.8rem / 1.3 "roboto flex", "Sans serif";
+  font-weight: 600;
+  text-shadow: black 1px 0 10px;
+  color: white;
 }
 .esp_image_full{
-	display: flex;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .esp_credits {
-	font-size:1.2rem;
+  font-size:1.2rem;
 }
 
 #g1i3{
-	background-image: url('imgs/acude3.jpg'); 
-	opacity: 0;
+  background-image: url('imgs/acude3.jpg'); 
+  opacity: 0;
 }
 
 @media (max-width: 540px) {
-	.esp_lead{
-		font: 1.4rem / 1.3 "roboto flex", "sans serif";
-		padding: 5px;
-		margin: auto;
-		max-width: 55vw;
-		text-align: center;
-	}	
-	.esp_text_body_container{
-		font-size: 1.2rem;
-		padding: 0px 5px;
-	}
-	.text_upper{
-		margin: 85vh auto 0vh auto;
-		padding: 1vh;
-		max-width: 90%;
-		font: 1.5rem / 1.3	 "roboto flex", "Sans serif";
-		font-weight: 600;
-	}
-	.esp_title_first{
-		font: 10vw / 1 'big shoulders text', 'Sans serif';
-		font-weight: 100;
-		text-transform: uppercase;
-	}
-	.esp_title_second{
-		font: 10vw / 1 'big shoulders text', 'Sans serif';
-		font-weight: 900;
-		letter-spacing: -0.2rem;
-		text-transform: uppercase;
-	}
+  .esp_lead{
+    font: 1.4rem / 1.3 "roboto flex", "sans serif";
+    padding: 5px;
+    margin: auto;
+    max-width: 55vw;
+    text-align: center;
+  }	
+  .esp_text_body_container{
+    font-size: 1.2rem;
+    padding: 0px 5px;
+  }
+  .text_upper{
+    margin: 85vh auto 0vh auto;
+    padding: 1vh;
+    max-width: 90%;
+    font: 1.5rem / 1.3	 "roboto flex", "Sans serif";
+    font-weight: 600;
+  }
+  .esp_title_first{
+    font: 10vw / 1 'big shoulders text', 'Sans serif';
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  .esp_title_second{
+    font: 10vw / 1 'big shoulders text', 'Sans serif';
+    font-weight: 900;
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+  }
 
 }
 
