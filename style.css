@@ -21,19 +21,22 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 	margin: 0px 0px 30px 0px
 }
 .esp_title_first{
-	font: 6.0rem / 1 'big shoulders text', 'Sans serif';
+	font: 8vw / 1 'big shoulders text', 'Sans serif';
+	font-weight: 100;
 	text-transform: uppercase;
 }
 .esp_title_second{
-	font: 6.0rem / 1 'big shoulders text', 'Sans serif';
+	font: 8vw / 1 'big shoulders text', 'Sans serif';
 	font-weight: 900;
 	letter-spacing: -0.2rem;
 	text-transform: uppercase;
 }
-.esp_oppening_text{
+.esp_lead{
+	font: 2.3rem / 1.2 "roboto flex", "sans serif";
+	font-weight: 600;
 	padding: 10px;
 	margin: auto;
-	max-width: 90vw;
+	max-width: 60vw;
 	text-align: center;
 }
 .esp_oppening_text h1{
@@ -47,9 +50,6 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 	font-size: 1.8rem;
 	padding: 0px;
 	margin: 0px auto;
-}
-
-.esp_big_yellow_quote{
 }
 .esp_text_body_container{
 	max-width:600px;
@@ -86,6 +86,7 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: opacity 0.3s ease-in-out;
+
 }
 .text_upper{
 	padding: 5px  20px;
@@ -94,6 +95,7 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 	max-width: 40vw;
 	font: 1.8rem / 1.3 "roboto flex", "Sans serif";
 	font-weight: 600;
+	text-shadow: black 1px 0 10px;
 	color: white;
 }
 .esp_image_full{
@@ -102,19 +104,23 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 	height: 100%;
 	object-fit: cover;
 }
-.esp_credits p{
-	font-size:0.8rem;
+.esp_credits {
+	font-size:1.2rem;
+}
+
+#g1i3{
+	background-image: url('imgs/acude3.jpg'); 
+	opacity: 0;
 }
 
 @media (max-width: 540px) {
-	.esp_title_first{
-		font: 2.5rem / 1 'big shoulders text', 'Sans serif';
-	}
-	.esp_title_second{
-		font: 3.5rem / 1 'big shoulders text', 'Sans serif';
-		font-weight: 900;
-		letter-spacing: -0.2rem;
-	}
+	.esp_lead{
+		font: 1.4rem / 1.3 "roboto flex", "sans serif";
+		padding: 5px;
+		margin: auto;
+		max-width: 55vw;
+		text-align: center;
+	}	
 	.esp_text_body_container{
 		font-size: 1.2rem;
 		padding: 0px 5px;
@@ -123,24 +129,21 @@ html, body { /*são Importantes para garantir de as imagens full screnn ocupem r
 		margin: 85vh auto 0vh auto;
 		padding: 1vh;
 		max-width: 90%;
-		font: 0.9rem / 1.6 "Merriweather", "Times New Roman";
+		font: 1.5rem / 1.3	 "roboto flex", "Sans serif";
+		font-weight: 600;
 	}
-	`
-}
-@media (min-width: 541px) and (max-width: 900px) {
-	.text_upper{
-		margin: 85vh auto 0vh auto;
-		padding: 1vh 3vh;
-		max-width: 90%;
-		font: 1.0rem / 1.6 "Merriweather", "Times New Roman";
-	}    
+	.esp_title_first{
+		font: 10vw / 1 'big shoulders text', 'Sans serif';
+		font-weight: 100;
+		text-transform: uppercase;
+	}
+	.esp_title_second{
+		font: 10vw / 1 'big shoulders text', 'Sans serif';
+		font-weight: 900;
+		letter-spacing: -0.2rem;
+		text-transform: uppercase;
+	}
+
 }
 
-
-/*.esp_capital_letter::first-letter {
-font-size: 3rem;
-font-weight: bold;
-float: left;
-margin: -10px 10px -10px 00px;
-}
-*/
+@media (min-width: 541px) and (max-width: 900px)
